@@ -1,11 +1,13 @@
 import React from "react";
-import Navbar from "./navbar"; // Corrected import statement
+import Navbar from "./navbar";
+import Home from "./home";
 import "./app.css";
 
 function App() {
   return (
     <div className="app-container">
       <Navbar />
+      <Home />
     </div>
   );
 }

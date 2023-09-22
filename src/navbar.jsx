@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 import "./navbar.css";
 
@@ -18,10 +18,7 @@ const Navbar = () => {
         <Link className="menu-link" to="projects">
           Projects
         </Link>
-        <button className="contact-button">
-          Contact Me
-          <FontAwesomeIcon icon={faMessage} />
-        </button>
+        <button className="contact-button">Contact Me</button>
       </div>
     </nav>
   );

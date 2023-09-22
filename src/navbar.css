@@ -1,5 +1,5 @@
 .navbar-container {
-  height: 5rem;
+  height: 8rem;
   width: 100vw;
   max-width: 80rem;
   margin: 0 auto;
@@ -18,10 +18,9 @@
 }
 
 .menu-link {
-  margin: 1rem;
+  margin: 2rem;
   cursor: pointer;
   text-decoration: none;
-  color: white;
 }
 
 .menu-link:hover {
@@ -31,12 +30,12 @@
 }
 
 .contact-button {
-  margin: 1rem;
+  margin: 2rem;
   background-color: #ffffff;
   border: 0;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #000000;
-  padding: 14px 20px;
+  padding: 14px 24px;
   cursor: pointer;
   outline: none;
   font-family: Bahnschrift, sans-serif;
@@ -49,5 +48,5 @@
 
 .logo {
   color: orange;
-  font-size: 100px;
+  font-size: 80px;
 }
