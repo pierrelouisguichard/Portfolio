@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  font-size: 4rem;
+}

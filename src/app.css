@@ -1,5 +1,5 @@
 .app-container {
-  background-color: rgb(18, 17, 24);
+  background-color: rgb(21, 22, 36);
   top: 0;
   left: 0;
   position: absolute;
@@ -8,4 +8,5 @@
   font-family: Bahnschrift, sans-serif;
   font-size: 18px;
   color: white;
+  overflow: hidden;
 }
