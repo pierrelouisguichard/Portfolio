@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link className="menu-link" to="projects">
           Projects
         </Link>
-        <button className="contact-button">Contact Me</button>
+        {/* <button className="contact-button">Contact Me</button> */}
       </div>
     </nav>
   );
