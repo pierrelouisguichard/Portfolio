@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledSvg = styled.svg`
-  width: 35%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
 `;
 
 export function Git() {

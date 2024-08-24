@@ -8,7 +8,7 @@ function Projects() {
 export default Projects;
 
 const Container = styled.div`
-  background-color: purple;
+  background-color: #00ffd9;
   padding: 20px;
   max-width: 1500px;
   width: 100%;

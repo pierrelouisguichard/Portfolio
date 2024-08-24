@@ -2,13 +2,15 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
-import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb, faRobot } from "@fortawesome/free-solid-svg-icons";
 
 function Header({ toggleTheme }) {
   return (
     <Container>
-      <Logo>Logo</Logo>
-      <Menu>Menu</Menu>
+      <Logo>
+        <FontAwesomeIcon icon={faRobot} />
+      </Logo>
+      <Menu>Home AboutMe Projects Skills Experience Education</Menu>
       <Links>
         <LightSwitch onClick={toggleTheme}>
           <FontAwesomeIcon icon={faLightbulb} />
@@ -29,42 +31,47 @@ export default Header;
 const Container = styled.div`
   height: 10vh;
   max-width: 1500px;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
-const Logo = styled.div``;
+const Logo = styled.div`
+  font-size: 3rem;
+`;
 
 const Menu = styled.div``;
 
 const GitHub = styled.div`
-  transition: background-color 0.3s ease, color 0.3s ease;
+  opacity: 50%;
+  transition: 0.3s ease, color 0.3s ease;
 
   &:hover {
-    color: ${(props) => props.theme.primary};
+    opacity: 100%;
   }
 `;
 
 const LinkedIn = styled.div`
-  transition: background-color 0.3s ease, color 0.3s ease;
+  opacity: 50%;
+  transition: 0.3s ease, color 0.3s ease;
 
   &:hover {
-    color: ${(props) => props.theme.primary};
+    opacity: 100%;
   }
 `;
 
 const LightSwitch = styled.div`
-  transition: background-color 0.3s ease, color 0.3s ease;
+  opacity: 50%;
+  transition: 0.3s ease, color 0.3s ease;
 
   &:hover {
-    color: ${(props) => props.theme.primary};
+    opacity: 100%;
   }
 `;
 
 const Links = styled.div`
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: row;
   gap: 20px;

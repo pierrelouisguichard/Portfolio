@@ -5,8 +5,8 @@ function Profile() {
   return (
     <Container>
       <NameAndJob>
-        <h1>Pierre Guichard</h1>
-        <h2>software engineer</h2>
+        <Name>Pierre Guichard</Name>
+        <Job>software engineer</Job>
       </NameAndJob>
       <ProfilePicture></ProfilePicture>
     </Container>
@@ -16,24 +16,32 @@ function Profile() {
 export default Profile;
 
 const Container = styled.div`
-  background-color: green;
   padding: 20px;
   max-width: 1500px;
-  width: 100%;
+  width: 80%;
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
+const Name = styled.h1`
+  font-size: 4rem;
+  font-weight: 400;
+`;
+
+const Job = styled.h1`
+  font-size: 2rem;
+  font-weight: 300;
+`;
+
 const NameAndJob = styled.div`
-  background-color: #cda9cd;
-  padding: 50px;
+  padding-left: 50px;
   flex-grow: 1;
+  border-left: 2px solid ${(props) => props.theme.secondary};
 `;
 
 const ProfilePicture = styled.div`
-  background-color: #4b4b87;
   padding: 50px;
   flex-grow: 1;
 `;

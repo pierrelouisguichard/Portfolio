@@ -20,8 +20,7 @@ const Square = styled.div`
   align-items: center;
   justify-content: center;
   color: ${(props) => props.theme.secondary};
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.2rem;
   transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {

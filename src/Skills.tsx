@@ -40,11 +40,13 @@ export default Skills;
 
 const Container = styled.div`
   padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   max-width: 1500px;
-  width: 100%;
+  width: 80%;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 40px;
   justify-content: center;
 `;
