@@ -10,8 +10,8 @@ export default Experience;
 const Container = styled.div`
   background-color: blue;
   padding: 20px;
-  max-width: 1500px;
-  width: 100%;
+  max-width: 1800px;
+  width: 80%;
   height: 100vh;
   display: flex;
   justify-content: center;

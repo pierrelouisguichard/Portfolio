@@ -52,17 +52,23 @@ function Skills() {
 export default Skills;
 
 const Container = styled.div`
+  /* background-color: green; */
+  width: 80%;
+  max-width: 1800px;
   padding: 100px;
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 300px;
-  max-width: 1800px;
-  width: 80%;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 40px;
   justify-content: center;
+
+  @media (max-width: 1200px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 `;
 
 const ParallaxContainer = styled.div`

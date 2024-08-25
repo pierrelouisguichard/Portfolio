@@ -51,7 +51,7 @@ const ProfilePicture = styled.img`
   bottom: 0;
   left: 60%;
   transform: translateX(-50%);
-  width: 1200px;
-  height: auto;
+  height: 90%;
+  width: auto;
   z-index: 0;
 `;
