@@ -11,7 +11,7 @@ const Container = styled.div`
   background-color: #00ffd9;
   padding: 20px;
   max-width: 1500px;
-  width: 100%;
+  width: 80%;
   height: 100vh;
   display: flex;
   justify-content: center;

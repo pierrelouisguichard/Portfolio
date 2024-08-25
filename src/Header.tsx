@@ -30,7 +30,7 @@ export default Header;
 
 const Container = styled.div`
   height: 10vh;
-  max-width: 1500px;
+  max-width: 1800px;
   width: 80%;
   display: flex;
   justify-content: space-between;
