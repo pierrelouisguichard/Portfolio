@@ -7,7 +7,7 @@ function Profile() {
     <Container>
       <NameAndJob>
         <Name>Pierre Guichard</Name>
-        <Job>software engineer</Job>
+        <Job>Software Engineer</Job>
       </NameAndJob>
       <ProfilePicture src={pic} alt="Profile" />
     </Container>
@@ -23,9 +23,16 @@ const Container = styled.div`
   width: 80%;
   height: 90vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  overflow: hidden; /* Ensure the image doesn't overflow the container */
+  overflow: hidden;
+`;
+
+const NameAndJob = styled.div`
+  padding-left: 50px;
+  border-left: 2px solid ${(props) => props.theme.secondary};
+  position: relative;
+  z-index: 1;
 `;
 
 const Name = styled.h1`
@@ -38,20 +45,8 @@ const Job = styled.h1`
   font-weight: 300;
 `;
 
-const NameAndJob = styled.div`
-  padding-left: 50px;
-  flex-grow: 1;
-  border-left: 2px solid ${(props) => props.theme.secondary};
-  position: relative;
-  z-index: 1;
-`;
-
 const ProfilePicture = styled.img`
-  position: absolute;
-  bottom: 0;
-  left: 60%;
-  transform: translateX(-50%);
-  height: 90%;
-  width: auto;
-  z-index: 0;
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
 `;

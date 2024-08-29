@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Georgia', sans-serif;
     letter-spacing: 2px;
     background-color: ${(props) => props.theme.primary};
     background-image: radial-gradient(circle, ${(props) =>

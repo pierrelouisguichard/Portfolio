@@ -1,15 +1,14 @@
-const white = "#FFFFFF";
-const grey = "#1f1f1f";
+const secondary = "#d5d5d5";
+const primary = "#151515";
 
 export const lightTheme = {
-  primary: white,
-  secondary: grey,
+  primary: secondary,
+  secondary: primary,
   third: "#e9e8e8",
 };
 
 export const darkTheme = {
-  primary: grey,
-  secondary: white,
-
-  third: "#444444",
+  primary: primary,
+  secondary: secondary,
+  third: "#2e2e2e",
 };
