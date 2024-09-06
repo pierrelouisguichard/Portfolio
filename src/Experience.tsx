@@ -9,19 +9,31 @@ function Experience() {
         <TimelineItem>
           <Dot />
           <Content>
-            <RoleTitle>IT & Developer</RoleTitle>
+            <RoleTitle>Software Developer & IT Support</RoleTitle>
             <Company>CTO & Co</Company>
             <DateRange>Jun 2024 - Present</DateRange>
             <Description>
-              • Developed and implemented Python scripts to automate processes
-              for CTO & Co and clients, significantly improving operational
-              efficiency and reducing manual workload by 20%.
+              • Developed and implemented scripts to automate internal processes
+              for CTO & Co and clients, resulting in over a 20% increase in
+              operational efficiency and a significant reduction in manual
+              workload.
             </Description>
             <Description>
-              • Demonstrated an entrepreneurial mindset by actively contributing
-              to business development efforts, identifying opportunities for
-              growth, and implementing strategies that aligned with company
-              goals.
+              • Collaborated closely with my team to resolve IT issues, ensuring
+              99.9% uptime and maintaining the company’s IT infrastructure,
+              including network setup, software installations, and security
+              protocols.
+            </Description>
+            <Description>
+              • Acquired a diverse set of skills by assuming over three
+              additional roles and tasks beyond my core responsibilities,
+              including project management, client relations, and operational
+              duties.
+            </Description>
+            <Description>
+              • Contributed to 5+ projects with direct impact on company
+              success, consistently delivering measurable results and earning
+              recognition for achievements.
             </Description>
           </Content>
         </TimelineItem>
@@ -40,7 +52,7 @@ function Experience() {
               • Acquired experience with the software development life cycle and
               agile methodology through planning, coding, and testing software.
               Demonstrated ability to learn new technologies quickly, completing
-              projects rapidly and with high quality
+              projects rapidly and with high quality.
             </Description>
             <Description>
               • Implemented improvements to internal tools, significantly
@@ -77,7 +89,7 @@ const Title = styled.h1`
 
 const Timeline = styled.div`
   position: relative;
-  width: 70%;
+  width: 40%;
   padding: 20px;
   display: flex;
   flex-direction: column;

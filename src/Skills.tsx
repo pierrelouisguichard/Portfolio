@@ -16,20 +16,11 @@ import {
   Python,
   C,
 } from "./icons";
-import { Parallax } from "react-scroll-parallax";
 
 function Skills() {
   return (
     <>
-      <ParallaxContainer>
-        <Parallax
-          translateX={["-200px", "100px"]}
-          startScroll={2500}
-          endScroll={3000}
-        >
-          <Title>SKILLS</Title>
-        </Parallax>
-      </ParallaxContainer>
+      <Title>SKILLS</Title>
 
       <Container>
         <Skill icon={<Java />} name={"Java"} />
@@ -69,11 +60,6 @@ const Container = styled.div`
     padding-left: 50px;
     padding-right: 50px;
   }
-`;
-
-const ParallaxContainer = styled.div`
-  max-width: 1800px;
-  width: 80%;
 `;
 
 const Title = styled.div`

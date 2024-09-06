@@ -1,24 +1,16 @@
 import React from "react";
-import { Parallax } from "react-scroll-parallax";
 import styled from "styled-components";
 
 function About() {
   return (
     <Container>
-      <Parallax
-        translateX={["-500px", "-150px"]}
-        startScroll={0}
-        endScroll={1000}
-      >
-        <Title>ABOUT ME</Title>
-      </Parallax>
+      <Title>ABOUT ME</Title>
       <Text>
-        Experienced Junior Software Engineer proficient in software development,
-        testing, and debugging with practical hands-on experience. Recently
-        graduated in Computer Science with a passion for making real-world
-        impacts. Excited about learning new technologies, collaborating in
-        fast-paced environments, and committed to continuous learning and
-        development.
+        Recent Computer Science graduate with hands-on professional experience
+        in software development, including design, development, and testing.
+        Confident in my ability to solve complex problems, work in a fast-paced
+        environment and collaborate as part of a team. Enthusiastic to apply my
+        skills in an entry-level software development role.
       </Text>
     </Container>
   );
@@ -38,7 +30,6 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-  /* background-color: green; */
   padding-top: 200px;
   font-weight: bold;
   font-size: 10rem;
